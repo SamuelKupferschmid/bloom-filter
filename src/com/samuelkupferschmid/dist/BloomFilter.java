@@ -25,37 +25,35 @@ public class BloomFilter {
         this.n = n;
         this.p = p;
 
-        this.m = (int) -((n * Math.log(p)) / (Math.log(2) * Math.log(2)));
-        this.k = (int) -(Math.log(p) / Math.log(2));
-
-        this.hashSet = new BitSet(m/8);
+        m =  -(int)((n * Math.log(p)) / (Math.log(2) * Math.log(2)));
+        k =  -(int)(Math.log(p) / Math.log(2));
 
         hashFunctions = new HashFunction[k];
 
         for (int i=0; i<k; i++) {
             hashFunctions[i] = Hashing.murmur3_128(i);
         }
+
+        hashSet = new BitSet(m/8);
     }
 
     public void insert(String value){
         for (HashFunction f : hashFunctions) {
-            HashCode c = f.hashString(value, Charset.defaultCharset());
-            int position = Math.abs(c.asInt()) % m;
-
-            hashSet.set(position,true);
+            hashSet.set(getModuleHash(f,value),true);
         }
     }
 
     public boolean lookup(String value){
         for (HashFunction f : hashFunctions) {
-            HashCode c = f.hashString(value, Charset.defaultCharset());
-            int position = Math.abs(c.asInt()) % m;
-
-            if (!hashSet.get(position)) {
+            if (!hashSet.get(getModuleHash(f,value)))
                 return false;
-            }
         }
 
         return true;
+    }
+
+    private int getModuleHash(HashFunction func, String value) {
+        HashCode h = func.hashString(value, Charset.defaultCharset());
+        return Math.abs(h.asInt()) % m;
     }
 }
