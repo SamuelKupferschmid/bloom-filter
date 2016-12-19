@@ -1,10 +1,9 @@
 package com.samuelkupferschmid.dist;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.text.MessageFormat;
-import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.io.File;
 
 public class Main {
 

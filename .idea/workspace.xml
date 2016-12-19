@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e1eb461-050c-4d07-8200-be10d266d031" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/samuelkupferschmid/dist/BloomFilter.java" afterPath="$PROJECT_DIR$/src/com/samuelkupferschmid/dist/BloomFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/samuelkupferschmid/dist/Main.java" afterPath="$PROJECT_DIR$/src/com/samuelkupferschmid/dist/Main.java" />
     </list>
     <ignored path="bloom-filter.iws" />
@@ -25,23 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/samuelkupferschmid/dist/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="42" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BloomFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BloomFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/samuelkupferschmid/dist/BloomFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-405">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="170">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,8 +67,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/samuelkupferschmid/dist/Murmur3.java" />
         <option value="$USER_HOME$/AppData/Local/Temp/BloomFilter.java" />
-        <option value="$PROJECT_DIR$/src/com/samuelkupferschmid/dist/Main.java" />
         <option value="$PROJECT_DIR$/src/com/samuelkupferschmid/dist/BloomFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/samuelkupferschmid/dist/Main.java" />
       </list>
     </option>
   </component>
@@ -581,9 +577,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -638,20 +632,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/samuelkupferschmid/dist/BloomFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/samuelkupferschmid/dist/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/samuelkupferschmid/dist/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/samuelkupferschmid/dist/BloomFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="42" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+        <state relative-caret-position="170">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
